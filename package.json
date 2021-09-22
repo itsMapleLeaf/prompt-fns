@@ -15,7 +15,7 @@
     "build": "tsc",
     "lint": "eslint --ext js,ts,tsx .",
     "format": "prettier --write .",
-    "release": "release-it"
+    "release": "pnpm run build && release-it"
   },
   "dependencies": {
     "@types/inquirer": "^7",
